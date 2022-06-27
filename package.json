@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "inquirer": "^8.2.4"
-  }
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rturner1220/jest-another-RPG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rturner1220/jest-another-RPG/issues"
+  },
+  "homepage": "https://github.com/rturner1220/jest-another-RPG#readme",
+  "description": ""
 }
