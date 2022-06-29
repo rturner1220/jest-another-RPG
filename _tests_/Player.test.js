@@ -32,3 +32,13 @@ test('creates a player object', () => {
   
     expect(player.getInventory()).toEqual(false);
   });
+
+  test('checks if player is alive or not', () => {
+    const player = new Player('Dave');
+  
+    expect(player.isAlive()).toBeTruthy();
+  
+    player.health = 0;
+  
+    expect(player.isAlive()).toBeFalsy();
+  });
